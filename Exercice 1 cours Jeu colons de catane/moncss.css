@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+}
+
+
+html {
+	    background-image: radial-gradient(circle closest-side at 60% 43% , #B03 26%, rgba(187, 0, 51, 0) 27%), radial-gradient(circle closest-side at 40% 43% , #B03 26%, rgba(187, 0, 51, 0) 27%), radial-gradient(circle closest-side at 40% 22% , #D35 45%, rgba(221, 51, 85, 0) 46%), radial-gradient(circle closest-side at 60% 22% , #D35 45%, rgba(221, 51, 85, 0) 46%), radial-gradient(circle closest-side at 50% 35% , rgb(221, 51, 85) 30%, rgba(221, 51, 85, 0) 31%), radial-gradient(circle closest-side at 60% 43% , rgb(187, 0, 51) 26%, rgba(187, 0, 51, 0) 27%), radial-gradient(circle closest-side at 40% 43% , rgb(187, 0, 51) 26%, rgba(187, 0, 51, 0) 27%), radial-gradient(circle closest-side at 40% 22% , rgb(221, 51, 85) 45%, rgba(221, 51, 85, 0) 46%), radial-gradient(circle closest-side at 60% 22% , rgb(221, 51, 85) 45%, rgba(221, 51, 85, 0) 46%), radial-gradient(circle closest-side at 50% 35% , rgb(221, 51, 85) 30%, rgba(221, 51, 85, 0) 31%);
+background-repeat: fixed;
+
+background-attachment: scroll, scroll, scroll, scroll, scroll, scroll, scroll, scroll, scroll, scroll;
+background-position: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px;
+background-clip: border-box, border-box, border-box, border-box, border-box, border-box, border-box, border-box, border-box, border-box;
+
+background-color: #B03;
+background-size: 100px 100px;
+color : white;
+text-shadow : 2px 2px black;
+}
+
+
+header {
+	color :yellow;
+	text-align : right;
+}
+
+
+h2 {
+
+	background: linear-gradient(90deg,   rgba(255,255,255,0),  rgba(255,255,255,0.6),  rgba(255,255,255,0) );
+
+}
+
+
+section {
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	}
+
+
+#section1 strong{
+	color:aqua;
+	text-decoration: underline;
+}

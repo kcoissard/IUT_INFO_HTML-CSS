@@ -1,0 +1,94 @@
+*{
+	box-sizing: border-box;
+
+}
+
+body{
+		background-image: url("fondBeige.jpg");
+
+
+}
+
+
+
+header
+{
+
+	width : 100%;
+	border : 2px solid black;
+	border-radius : 5px;
+	background-image: url("IUTLyon1.png");
+	background-repeat: no-repeat;
+	background-position: right;
+
+}
+
+#logo_nom{
+	margin-left: 20%;
+}
+
+header img{
+	float:left;
+	height:100px;
+	width:100px;
+
+}
+header ul{
+	text-align: right;
+	margin: 0 160px 3px;
+
+}
+
+header li{
+	display:inline;
+	
+	color: black;
+	border: 2px solid black;
+	border-radius:5px;
+}
+
+header li a {
+	color:inherit;
+}
+
+header p{
+	
+	margin-bottom: 10px;
+}
+
+header p a {
+	position: relative;
+	left:35%;
+	
+}
+
+#corps {
+	margin-top: 20px;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+	}
+
+#corps article {
+	float:left;
+	width : 55%;
+
+}
+
+aside{
+	margin-top:100px;
+	margin-bottom:100px;
+
+	float:right;
+	width:40%;
+	background-color: rgb(125,240,151);
+}
+
+footer{
+	clear:both;
+   left:0px;
+   bottom:0px;
+   height:8%;
+   width:100%;
+   margin-top:10px;
+	border-top: solid green;
+}
